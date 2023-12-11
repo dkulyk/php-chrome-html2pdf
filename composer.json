@@ -1,5 +1,5 @@
 {
-    "name": "spiritix/php-chrome-html2pdf",
+    "name": "dkulyk/php-chrome-html2pdf",
     "type": "library",
     "description": "A PHP library for converting HTML to PDF using Google Chrome",
     "license": "MIT",
@@ -35,6 +35,12 @@
         "psr-4": {
             "Spiritix\\Html2Pdf\\Tests\\": "tests/php/"
         }
+    },
+    "provide": {
+        "spiritix/php-chrome-html2pdf": "*"
+    },
+    "conflict": {
+        "spiritix/php-chrome-html2pdf": "*"
     },
     "minimum-stability": "stable",
     "extra": {
